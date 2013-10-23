@@ -1,0 +1,36 @@
+{% load i18n lfs_tags %}
+
+<div class="cart-portlet portlet">
+
+    <div class="portlet-header" style="border-radius:20px 20px 0 0">
+        {% if title %}
+            <a href="{% url lfs.cart.views.cart %}"
+               title="{% trans 'Go to cart' %}" style="color:black;">Корзина
+        {% else %}
+            {% trans 'Cart' %} 
+        {% endif %}
+        <img src="{{ STATIC_URL }}img/shoppingcart.png"
+             alt="{% trans 'Cart' %}" />
+        </a>
+    </div>
+
+    <div class="portlet-body">
+        {% if amount_of_items_int %}
+            <div class="article">
+                {% blocktrans with amount=amount_of_items_locale count counter=amount_of_items_int %}{{ amount }} Позиция{% plural %}{{ amount }} Позиции{% endblocktrans %}
+            </div>
+            <div class="price">
+                {{ price|currency:request }}
+            </div>
+        {% else %}
+            {% trans 'Cart is empty' %}
+        {% endif %}
+    </div>
+
+    <div class="portlet-footer" style="border-radius:0px 0px 20px 0px">
+        <a href="{% url lfs.cart.views.cart %}">
+            {% trans 'Go to cart' %}
+        </a>
+    </div>
+
+</div>

@@ -1,0 +1,259 @@
+
+XSMP открывает соединение
+chdir(/usr/share/vim)
+fchdir() to previous dir
+считывание сценария "$VIM/vimrc"
+Поиск "debian.vim" в "/home/arkusc/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/arkusc/.vim/after"
+Поиск "/home/arkusc/.vim/debian.vim"
+Поиск "/usr/share/vim/vimfiles/debian.vim"
+Поиск "/usr/share/vim/vim73/debian.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+строка 11: считывание "/usr/share/vim/vim73/debian.vim"
+считывание сценария /usr/share/vim/vim73/debian.vim завершено
+продолжение в /usr/share/vim/vimrc
+Поиск "/usr/share/vim/vimfiles/after/debian.vim"
+Поиск "/home/arkusc/.vim/after/debian.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+строка 21: считывание "/usr/share/vim/vim73/syntax/syntax.vim"
+Поиск "syntax/synload.vim" в "/home/arkusc/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/arkusc/.vim/after"
+Поиск "/home/arkusc/.vim/syntax/synload.vim"
+Поиск "/var/lib/vim/addons/syntax/synload.vim"
+Поиск "/usr/share/vim/vimfiles/syntax/synload.vim"
+Поиск "/usr/share/vim/vim73/syntax/synload.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+строка 19: считывание "/usr/share/vim/vim73/syntax/synload.vim"
+Поиск "syntax/syncolor.vim" в "/home/arkusc/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/arkusc/.vim/after"
+Поиск "/home/arkusc/.vim/syntax/syncolor.vim"
+Поиск "/var/lib/vim/addons/syntax/syncolor.vim"
+Поиск "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Поиск "/usr/share/vim/vim73/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+строка 21: считывание "/usr/share/vim/vim73/syntax/syncolor.vim"
+считывание сценария /usr/share/vim/vim73/syntax/syncolor.vim завершено
+продолжение в /usr/share/vim/vim73/syntax/synload.vim
+Поиск "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Поиск "/var/lib/vim/addons/after/syntax/syncolor.vim"
+Поиск "/home/arkusc/.vim/after/syntax/syncolor.vim"
+считывание сценария /usr/share/vim/vim73/syntax/synload.vim завершено
+продолжение в /usr/share/vim/vim73/syntax/syntax.vim
+Поиск "filetype.vim" в "/home/arkusc/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/arkusc/.vim/after"
+Поиск "/home/arkusc/.vim/filetype.vim"
+Поиск "/var/lib/vim/addons/filetype.vim"
+Поиск "/usr/share/vim/vimfiles/filetype.vim"
+Поиск "/usr/share/vim/vim73/filetype.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+строка 25: считывание "/usr/share/vim/vim73/filetype.vim"
+Поиск "ftdetect/*.vim" в "/home/arkusc/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/arkusc/.vim/after"
+Поиск "/home/arkusc/.vim/ftdetect/*.vim"
+Поиск "/var/lib/vim/addons/ftdetect/*.vim"
+Поиск "/usr/share/vim/vimfiles/ftdetect/*.vim"
+Поиск "/usr/share/vim/vim73/ftdetect/*.vim"
+Поиск "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Поиск "/var/lib/vim/addons/after/ftdetect/*.vim"
+Поиск "/home/arkusc/.vim/after/ftdetect/*.vim"
+не найдено в 'runtimepath': "ftdetect/*.vim"
+считывание сценария /usr/share/vim/vim73/filetype.vim завершено
+продолжение в /usr/share/vim/vim73/syntax/syntax.vim
+Поиск "/usr/share/vim/vimfiles/after/filetype.vim"
+Поиск "/var/lib/vim/addons/after/filetype.vim"
+Поиск "/home/arkusc/.vim/after/filetype.vim"
+считывание сценария /usr/share/vim/vim73/syntax/syntax.vim завершено
+продолжение в /usr/share/vim/vimrc
+считывание сценария $VIM/vimrc завершено
+chdir(/home/arkusc)
+fchdir() to previous dir
+считывание сценария "$HOME/.vimrc"
+Поиск "ftoff.vim" в "/home/arkusc/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/arkusc/.vim/after"
+Поиск "/home/arkusc/.vim/ftoff.vim"
+Поиск "/var/lib/vim/addons/ftoff.vim"
+Поиск "/usr/share/vim/vimfiles/ftoff.vim"
+Поиск "/usr/share/vim/vim73/ftoff.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+строка 2: считывание "/usr/share/vim/vim73/ftoff.vim"
+считывание сценария /usr/share/vim/vim73/ftoff.vim завершено
+продолжение в /home/arkusc/.vimrc
+Поиск "/usr/share/vim/vimfiles/after/ftoff.vim"
+Поиск "/var/lib/vim/addons/after/ftoff.vim"
+Поиск "/home/arkusc/.vim/after/ftoff.vim"
+Поиск "autoload/pathogen.vim" в "/home/arkusc/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/arkusc/.vim/after"
+Поиск "/home/arkusc/.vim/autoload/pathogen.vim"
+chdir(/home/arkusc/.vim/autoload)
+fchdir() to previous dir
+строка 4: считывание "/home/arkusc/.vim/autoload/pathogen.vim"
+считывание сценария /home/arkusc/.vim/autoload/pathogen.vim завершено
+продолжение в /home/arkusc/.vimrc
+Поиск "filetype.vim" в "/home/arkusc/.vim,/home/arkusc/.vim/bundle/python-mode,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/arkusc/.vim/bundle/python-mode/after,/home/arkusc/.vim/after"
+Поиск "/home/arkusc/.vim/filetype.vim"
+Поиск "/home/arkusc/.vim/bundle/python-mode/filetype.vim"
+Поиск "/var/lib/vim/addons/filetype.vim"
+Поиск "/usr/share/vim/vimfiles/filetype.vim"
+Поиск "/usr/share/vim/vim73/filetype.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+строка 7: считывание "/usr/share/vim/vim73/filetype.vim"
+Поиск "ftdetect/*.vim" в "/home/arkusc/.vim,/home/arkusc/.vim/bundle/python-mode,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/arkusc/.vim/bundle/python-mode/after,/home/arkusc/.vim/after"
+Поиск "/home/arkusc/.vim/ftdetect/*.vim"
+Поиск "/home/arkusc/.vim/bundle/python-mode/ftdetect/*.vim"
+Поиск "/var/lib/vim/addons/ftdetect/*.vim"
+Поиск "/usr/share/vim/vimfiles/ftdetect/*.vim"
+Поиск "/usr/share/vim/vim73/ftdetect/*.vim"
+Поиск "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Поиск "/var/lib/vim/addons/after/ftdetect/*.vim"
+Поиск "/home/arkusc/.vim/bundle/python-mode/after/ftdetect/*.vim"
+Поиск "/home/arkusc/.vim/after/ftdetect/*.vim"
+не найдено в 'runtimepath': "ftdetect/*.vim"
+считывание сценария /usr/share/vim/vim73/filetype.vim завершено
+продолжение в /home/arkusc/.vimrc
+Поиск "/usr/share/vim/vimfiles/after/filetype.vim"
+Поиск "/var/lib/vim/addons/after/filetype.vim"
+Поиск "/home/arkusc/.vim/bundle/python-mode/after/filetype.vim"
+Поиск "/home/arkusc/.vim/after/filetype.vim"
+Поиск "ftplugin.vim" в "/home/arkusc/.vim,/home/arkusc/.vim/bundle/python-mode,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/arkusc/.vim/bundle/python-mode/after,/home/arkusc/.vim/after"
+Поиск "/home/arkusc/.vim/ftplugin.vim"
+Поиск "/home/arkusc/.vim/bundle/python-mode/ftplugin.vim"
+Поиск "/var/lib/vim/addons/ftplugin.vim"
+Поиск "/usr/share/vim/vimfiles/ftplugin.vim"
+Поиск "/usr/share/vim/vim73/ftplugin.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+строка 7: считывание "/usr/share/vim/vim73/ftplugin.vim"
+считывание сценария /usr/share/vim/vim73/ftplugin.vim завершено
+продолжение в /home/arkusc/.vimrc
+Поиск "/usr/share/vim/vimfiles/after/ftplugin.vim"
+Поиск "/var/lib/vim/addons/after/ftplugin.vim"
+Поиск "/home/arkusc/.vim/bundle/python-mode/after/ftplugin.vim"
+Поиск "/home/arkusc/.vim/after/ftplugin.vim"
+Поиск "indent.vim" в "/home/arkusc/.vim,/home/arkusc/.vim/bundle/python-mode,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/arkusc/.vim/bundle/python-mode/after,/home/arkusc/.vim/after"
+Поиск "/home/arkusc/.vim/indent.vim"
+Поиск "/home/arkusc/.vim/bundle/python-mode/indent.vim"
+Поиск "/var/lib/vim/addons/indent.vim"
+Поиск "/usr/share/vim/vimfiles/indent.vim"
+Поиск "/usr/share/vim/vim73/indent.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+строка 7: считывание "/usr/share/vim/vim73/indent.vim"
+считывание сценария /usr/share/vim/vim73/indent.vim завершено
+продолжение в /home/arkusc/.vimrc
+Поиск "/usr/share/vim/vimfiles/after/indent.vim"
+Поиск "/var/lib/vim/addons/after/indent.vim"
+Поиск "/home/arkusc/.vim/bundle/python-mode/after/indent.vim"
+Поиск "/home/arkusc/.vim/after/indent.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+строка 8: считывание "/usr/share/vim/vim73/syntax/syntax.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+строка 15: считывание "/usr/share/vim/vim73/syntax/nosyntax.vim"
+считывание сценария /usr/share/vim/vim73/syntax/nosyntax.vim завершено
+продолжение в /usr/share/vim/vim73/syntax/syntax.vim
+Поиск "syntax/synload.vim" в "/home/arkusc/.vim,/home/arkusc/.vim/bundle/python-mode,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/arkusc/.vim/bundle/python-mode/after,/home/arkusc/.vim/after"
+Поиск "/home/arkusc/.vim/syntax/synload.vim"
+Поиск "/home/arkusc/.vim/bundle/python-mode/syntax/synload.vim"
+Поиск "/var/lib/vim/addons/syntax/synload.vim"
+Поиск "/usr/share/vim/vimfiles/syntax/synload.vim"
+Поиск "/usr/share/vim/vim73/syntax/synload.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+строка 19: считывание "/usr/share/vim/vim73/syntax/synload.vim"
+Поиск "syntax/syncolor.vim" в "/home/arkusc/.vim,/home/arkusc/.vim/bundle/python-mode,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/arkusc/.vim/bundle/python-mode/after,/home/arkusc/.vim/after"
+Поиск "/home/arkusc/.vim/syntax/syncolor.vim"
+Поиск "/home/arkusc/.vim/bundle/python-mode/syntax/syncolor.vim"
+Поиск "/var/lib/vim/addons/syntax/syncolor.vim"
+Поиск "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Поиск "/usr/share/vim/vim73/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+строка 21: считывание "/usr/share/vim/vim73/syntax/syncolor.vim"
+считывание сценария /usr/share/vim/vim73/syntax/syncolor.vim завершено
+продолжение в /usr/share/vim/vim73/syntax/synload.vim
+Поиск "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Поиск "/var/lib/vim/addons/after/syntax/syncolor.vim"
+Поиск "/home/arkusc/.vim/bundle/python-mode/after/syntax/syncolor.vim"
+Поиск "/home/arkusc/.vim/after/syntax/syncolor.vim"
+считывание сценария /usr/share/vim/vim73/syntax/synload.vim завершено
+продолжение в /usr/share/vim/vim73/syntax/syntax.vim
+считывание сценария /usr/share/vim/vim73/syntax/syntax.vim завершено
+продолжение в /home/arkusc/.vimrc
+считывание сценария $HOME/.vimrc завершено
+Поиск "plugin/**/*.vim" в "/home/arkusc/.vim,/home/arkusc/.vim/bundle/python-mode,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/arkusc/.vim/bundle/python-mode/after,/home/arkusc/.vim/after"
+Поиск "/home/arkusc/.vim/plugin/**/*.vim"
+chdir(/home/arkusc/.vim/plugin)
+fchdir() to previous dir
+считывание сценария "/home/arkusc/.vim/plugin/tagbar.vim"
+считывание сценария /home/arkusc/.vim/plugin/tagbar.vim завершено
+chdir(/home/arkusc/.vim/plugin)
+fchdir() to previous dir
+считывание сценария "/home/arkusc/.vim/plugin/vimExplorer.vim"
+считывание сценария /home/arkusc/.vim/plugin/vimExplorer.vim завершено
+chdir(/home/arkusc/.vim/plugin)
+fchdir() to previous dir
+считывание сценария "/home/arkusc/.vim/plugin/vimballPlugin.vim"
+считывание сценария /home/arkusc/.vim/plugin/vimballPlugin.vim завершено
+Поиск "/home/arkusc/.vim/bundle/python-mode/plugin/**/*.vim"
+Поиск "/var/lib/vim/addons/plugin/**/*.vim"
+Поиск "/usr/share/vim/vimfiles/plugin/**/*.vim"
+Поиск "/usr/share/vim/vim73/plugin/**/*.vim"
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+считывание сценария "/usr/share/vim/vim73/plugin/getscriptPlugin.vim"
+считывание сценария /usr/share/vim/vim73/plugin/getscriptPlugin.vim завершено
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+считывание сценария "/usr/share/vim/vim73/plugin/gzip.vim"
+считывание сценария /usr/share/vim/vim73/plugin/gzip.vim завершено
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+считывание сценария "/usr/share/vim/vim73/plugin/matchparen.vim"
+считывание сценария /usr/share/vim/vim73/plugin/matchparen.vim завершено
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+считывание сценария "/usr/share/vim/vim73/plugin/netrwPlugin.vim"
+считывание сценария /usr/share/vim/vim73/plugin/netrwPlugin.vim завершено
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+считывание сценария "/usr/share/vim/vim73/plugin/rrhelper.vim"
+считывание сценария /usr/share/vim/vim73/plugin/rrhelper.vim завершено
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+считывание сценария "/usr/share/vim/vim73/plugin/spellfile.vim"
+считывание сценария /usr/share/vim/vim73/plugin/spellfile.vim завершено
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+считывание сценария "/usr/share/vim/vim73/plugin/tarPlugin.vim"
+считывание сценария /usr/share/vim/vim73/plugin/tarPlugin.vim завершено
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+считывание сценария "/usr/share/vim/vim73/plugin/tohtml.vim"
+считывание сценария /usr/share/vim/vim73/plugin/tohtml.vim завершено
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+считывание сценария "/usr/share/vim/vim73/plugin/vimballPlugin.vim"
+считывание сценария /usr/share/vim/vim73/plugin/vimballPlugin.vim завершено
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+считывание сценария "/usr/share/vim/vim73/plugin/zipPlugin.vim"
+считывание сценария /usr/share/vim/vim73/plugin/zipPlugin.vim завершено
+Поиск "/usr/share/vim/vimfiles/after/plugin/**/*.vim"
+Поиск "/var/lib/vim/addons/after/plugin/**/*.vim"
+Поиск "/home/arkusc/.vim/bundle/python-mode/after/plugin/**/*.vim"
+Поиск "/home/arkusc/.vim/after/plugin/**/*.vim"
+Чтение файла viminfo "/home/arkusc/.viminfo" инфо oldfiles
+Открытие дисплея X заняло 3 msec
+Проверка дисплея X завершена неудачно
+XSMP обрабатывает запрос самосохранения
+Выполнение BufEnter Автокоманды для "*"
+автокоманда sil! call s:LocalBrowse(expand("<amatch>"))
+
+Выполнение VimEnter Автокоманды для "*"
+автокоманда sil! call s:VimEnter(expand("<amatch>"))
+
+Выполнение CursorMoved Автокоманды для "*"
+автокоманда call s:Highlight_Matching_Pair()
+
+Запись файла viminfo "/home/arkusc/.viminfo"
