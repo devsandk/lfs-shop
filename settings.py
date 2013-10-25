@@ -152,6 +152,7 @@ INSTALLED_APPS = (
     'paypal.standard.ipn',
     'paypal.standard.pdt',
     'gunicorn',
+    'slider',
 )
 
 FORCE_SCRIPT_NAME=""

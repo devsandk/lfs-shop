@@ -20,6 +20,8 @@ body {
 	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
 	z-index:100;
 	position:relative;
+	line-height:16px;
+	border-bottom:1px solid white;
 }
 .top_search {
 	background: url("/static/img/top_search_bg.gif") no-repeat scroll center center rgba(0,0,0,0);
@@ -376,7 +378,7 @@ table.search-results {
 }
 
 .tabs ul {
-    height: 50px;
+    height: 30px;
     padding: 0;
   /*  background: url(../img/menu_bg.jpg) repeat-x;*/
 }
@@ -392,7 +394,7 @@ table.search-results {
     position: relative;
     float: left;
     padding: 0 20px;
-    line-height: 50px;
+    line-height: 30px;
     text-align: center;
     background: transparent;
     text-decoration: none;
@@ -1151,7 +1153,7 @@ ___________________________________________________________________________ */
 }
 .container1 {
 	background:#efefef;
-	height:50px;
+	height:30px;
 	/*border-radius: 0px 0px 10px 10px;*/
 	box-shadow:0 -1px 2px -1px #aaaaaa inset;
 }
@@ -1302,3 +1304,86 @@ button.emphasized:hover {
 	border-bottom:1px solid white;
 	text-shadow:0 0 2px #000000;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#slideshow #slideshowWindow {
+	width:500px;
+	height:257px;
+	margin:0;
+	padding:0;
+	position:relative;
+	overflow:hidden;
+}
+ 
+#slideshow #slideshowWindow .slide {
+	margin:0;
+	padding:0;
+	width:500px; 
+	height:257px;
+	position:relative;
+}
+ 
+#slideshow #slideshowWindow .slide .slideText {
+	position:absolute;
+	top:130px;
+	left:0px;
+	width:100%;
+	height:130px;
+	background-image:url(greyBg.png);
+	background-repeat:repeat;
+	margin:0;
+	padding:0;
+	color:#ffffff;
+	font-family:Myriad Pro, Arial, Helvetica, sans-serif;
+}
+ 
+#slideshow #slideshowWindow .slide .slideText a:link, #slideshow #slideshowWindow .slide .slideText a:visited {
+	color:#ffffff;
+	text-decoration:none;
+}
+ 
+#slideshow #slideshowWindow .slide .slideText h2, #slideshow #slideshowWindow .slide .slideText p {
+	margin:10px 0 0 10px;
+	padding:0;
+}
+ 
+/*Navigation*/
+.nav {
+	display:block;
+	text-indent:-10000px;
+	position:absolute;
+	cursor:pointer;
+}
+ 
+#leftNav {
+	top:228px;
+	left:350px;
+	width:94px;
+	height:34px;
+	background-image:url(previous.png);
+	background-repeat:no-repeat;
+	z-index:999;
+}
+ 
+#rightNav {
+	top:230px;
+	left:450px;
+	width:53px;
+	height:26px;
+	background-image:url(next.png);
+	background-repeat:no-repeat;
+	z-index:999;
+}
+ 
