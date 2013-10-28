@@ -27,4 +27,5 @@ urlpatterns += patterns("",
 )
 urlpatterns += patterns("",
     (r'^slide/$', 'slider.views.slide'),
+  #  (r'^', 'slider.views.index'),
 )

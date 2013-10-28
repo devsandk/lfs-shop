@@ -14,7 +14,7 @@ body {
 
 .top_bar {
 	height: 38px;
-	width:1000px;
+/*	width:1000px;*/
 	margin: auto;
 	background:url("/static/img/header_bg.png") repeat scroll 0 0 #772953;
 	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
@@ -212,6 +212,9 @@ td.padding-left {
 .padding-top-middle {
     margin-top: 15px;
 }
+.middle-slot {
+	text-align:justify;
+}
 
 .padding-top-large {
     margin-top: 20px;
@@ -247,7 +250,7 @@ td.padding-left {
     background: url("/static/img/topnav_divider.png") repeat scroll 0 0 #dd4814;
     height: 100px;
     margin: auto;
-    width: 1000px;
+  /*  width: 1000px;*/
     box-shadow:0 2px 2px -2px #777777 inset;
     border-bottom:1px solid white;
 
@@ -374,7 +377,7 @@ table.search-results {
 }
 #tabs {
 	margin:auto;
-	width:1000px;
+/*	width:1000px;*/
 }
 
 .tabs ul {
@@ -418,6 +421,9 @@ table.search-results {
 }
 
 /* Breadcrumbs */
+#breadcrumbs .container {
+	width:100%;
+}
 ul.breadcrumbs {
     list-style-type: none;
     padding: 3px 0 0px 0;
@@ -431,6 +437,8 @@ ul.breadcrumbs li {
 /* Content ################################################################# */
 #content {
  /*   padding-top: 15px;*/
+	float:left;
+	margin-left:21px;
 }
 
 .left-slot {
@@ -540,13 +548,10 @@ a.current, span.current {
 }
 
 .category .product-image {
-    background-color:#fff;
-    border:1px solid #dfdfdf;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
     width: 100%;
     height: 100px;
     float: left;
+    text-align:center;
 }
 
 .preview-100-100 {
@@ -607,7 +612,7 @@ ___________________________________________________________________________ */
 
 .product .main-image {
     width: 200px;
-    height: 200px;
+    height: 158px;
 }
 
 .product-images {
@@ -1147,7 +1152,7 @@ ___________________________________________________________________________ */
 	background: url("/static/img/footer_bg.gif") repeat-x scroll center top rgba(0,0,0,0);
 	clear:both;
 	height:65px;
-	width:1000px;
+/*	width:1000px;*/
 	margin:auto;
     	padding-right:20px;
 }
@@ -1387,3 +1392,13 @@ button.emphasized:hover {
 	z-index:999;
 }
  
+.product-image img {
+	border:4px solid #efefef;
+	box-shadow: 1px 1px 4px #a0a0a0;
+	margin:auto;
+}
+.paramtable {
+	border:8px solid #efefef;
+	box-shadow:0 0 3px #a0a0a0 inset;
+	background-color:#fafafa;
+}

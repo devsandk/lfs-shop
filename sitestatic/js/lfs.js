@@ -73,8 +73,8 @@ $(function() {
     // Product ################################################################
 
     $("a.product-image").lightBox({
-        "txtImage" : "Image",
-        "txtOf" : " of "
+        "txtImage" : "Изображение",
+        "txtOf" : " из "
     });
 
     // Hack to make the change event on radio buttons for IE working

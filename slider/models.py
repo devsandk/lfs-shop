@@ -10,5 +10,5 @@ class Slider(models.Model):
     description =models.TextField(_(u"Описание слайда"), max_length=180)
     href=models.CharField(_(u"Ссыдка"), max_length=250)
 
-    def __unocode__(self):
+    def __unicode__(self):
         return self.title

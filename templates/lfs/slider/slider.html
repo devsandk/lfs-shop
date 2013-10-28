@@ -12,7 +12,7 @@
 		{% for img in first_img %}
 
 		<div class='slide' style='position:absolute;top:0px;left:0px;display:none'>
-			<a href='{{ img.href }}'>
+			<a href='{{ img.href }}' target="_parent">
 			<img src="/media/{{img.image}}" width='300' height='300'>
 			<div class='sliderp'>
 				<h2>{{img.title}}</h2>
@@ -33,13 +33,6 @@
 			</a>
 		</div>
 	</div>
-	<!--<div class="sli-links">
-	{% for i in counter %}
-		<span class="control-slide">{{i}}</span>
-	{% endfor %}	
-		<span class='control-slide active'>{{counter_last}}</span>
-
-	</div> -->
 </div>
 
 {%endif%}
