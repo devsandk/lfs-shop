@@ -438,7 +438,17 @@ ul.breadcrumbs li {
 #content {
  /*   padding-top: 15px;*/
 	float:left;
-	margin-left:21px;
+	background:url("/static/img/bg-product-pg.png") #eae8e8;
+	width:100%;
+}
+.span-15 {
+	background-color:#fff;
+	margin-top:2px;
+}
+.span-5 {
+	background-color:white;
+	margin-left:4px;
+	margin-top:2px;
 }
 
 .left-slot {
